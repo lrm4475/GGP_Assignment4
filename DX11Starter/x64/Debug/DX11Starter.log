@@ -1,0 +1,9 @@
+﻿  Entity.cpp
+  Game.cpp
+C:\Users\popta\Documents\Fall 20\GGP\DX11Starter\LMelendez_Assignment3\DX11Starter\Game.cpp(201,1): error C2280: 'Entity::Entity(const Entity &)': attempting to reference a deleted function
+C:\Users\popta\Documents\Fall 20\GGP\DX11Starter\LMelendez_Assignment3\DX11Starter\Entity.h(22): message : compiler has generated 'Entity::Entity' here
+C:\Users\popta\Documents\Fall 20\GGP\DX11Starter\LMelendez_Assignment3\DX11Starter\Entity.h(22,1): message : 'Entity::Entity(const Entity &)': function was implicitly deleted because a data member invokes a deleted or inaccessible function 'std::unique_ptr<Mesh,std::default_delete<Mesh>>::unique_ptr(const std::unique_ptr<Mesh,std::default_delete<Mesh>> &)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include\memory(1912,5): message : 'std::unique_ptr<Mesh,std::default_delete<Mesh>>::unique_ptr(const std::unique_ptr<Mesh,std::default_delete<Mesh>> &)': function was explicitly deleted
+  Main.cpp
+  Transform.cpp
+  Generating Code...
